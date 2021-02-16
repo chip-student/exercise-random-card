@@ -16,11 +16,9 @@ body {
 
 .spade-before {
   text-align: left;
-  /* background-color: cyan; */
 }
 .spade-after {
   text-align: right;
-  /* background-color: blue; */
   height: 60px;
 }
 .spa-before {

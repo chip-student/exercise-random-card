@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  text-align: center;
+  margin: 0 auto;
+}
+.card {
+  width: 172px;
+  height: 240px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.spade-before {
+  text-align: left;
+  /* background-color: cyan; */
+}
+.spade-after {
+  text-align: right;
+  /* background-color: blue; */
+  height: 60px;
+}
+.spa-before {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+.spa-after {
+  font-size: 40px;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0;
+  margin: 0;
+}
+.text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  width: 100%;
+  margin: 0;
+  font-family: "Georgia, Times New Roman, serif";
+}
